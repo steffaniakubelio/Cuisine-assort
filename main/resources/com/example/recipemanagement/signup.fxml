@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #DAD2BC;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.recipemanagement.SignupController">
+    <children>
+        <ImageView fitHeight="400.0" fitWidth="324.0" layoutX="-15.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@images/food2.jpg" />
+            </image>
+        </ImageView>
+        <Pane layoutX="323.0" layoutY="84.0" opacity="0.61" prefHeight="294.0" prefWidth="256.0" style="-fx-background-color: #ffffff;">
+            <children>
+                <Label layoutX="14.0" layoutY="34.0" text="Email">
+                    <font>
+                        <Font name="Baskerville Old Face" size="18.0" />
+                    </font>
+                </Label>
+                <Label layoutX="17.0" layoutY="136.0" text="Password">
+                    <font>
+                        <Font name="Baskerville Old Face" size="18.0" />
+                    </font>
+                </Label>
+                <TextField fx:id="emailTextField" layoutX="98.0" layoutY="32.0" prefHeight="26.0" prefWidth="114.0" promptText="Enter email">
+                    <font>
+                        <Font name="Arial Narrow" size="12.0" />
+                    </font>
+                </TextField>
+                <PasswordField fx:id="passwordPasswordField" layoutX="98.0" layoutY="134.0" prefHeight="26.0" prefWidth="114.0" promptText="Enter Password">
+                    <font>
+                        <Font name="Arial Narrow" size="12.0" />
+                    </font></PasswordField>
+                <Button fx:id="SignupButton" layoutX="71.0" layoutY="181.0" mnemonicParsing="false" onAction="#onSignupClick" opacity="0.34" prefHeight="36.0" prefWidth="114.0" style="-fx-background-color: brown; -fx-background-radius: 40px; -fx-opacity: 0.9;" text="Sign up" textFill="WHITE">
+                    <font>
+                        <Font name="System Bold" size="14.0" />
+                    </font>
+                </Button>
+            <Label layoutX="14.0" layoutY="81.0" text="Username">
+               <font>
+                  <Font name="Baskerville Old Face" size="18.0" />
+               </font>
+            </Label>
+            <TextField fx:id="usenameTextField" layoutX="98.0" layoutY="79.0" prefHeight="26.0" prefWidth="114.0" promptText="Enter username">
+               <font>
+                  <Font name="Arial Narrow" size="12.0" />
+               </font>
+            </TextField>
+            <Label layoutX="17.0" layoutY="239.0" text="Already a user?">
+               <font>
+                  <Font name="Arial Narrow" size="18.0" />
+               </font>
+            </Label>
+            <Button fx:id="loginButton" layoutX="145.0" layoutY="237.0" mnemonicParsing="false" onAction="#loginButtonAction" prefHeight="25.0" prefWidth="74.0" style="-fx-background-radius: 32px; -fx-background-color: grey;" text="Login" textFill="#fff9f9" />
+            </children>
+        </Pane>
+        <Label alignment="CENTER" layoutX="344.0" layoutY="24.0" prefHeight="43.0" prefWidth="202.0" text="CUISINE ASSORT">
+            <font>
+                <Font name="Niagara Solid" size="38.0" />
+            </font>
+        </Label>
+    </children>
+</AnchorPane>
