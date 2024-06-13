@@ -11,7 +11,7 @@
 <?import javafx.scene.text.Font?>
 
 <AnchorPane minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #DAD2BC;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.recipemanagement.SignupController">
-    <children>
+    <children> 
         <ImageView fitHeight="400.0" fitWidth="324.0" layoutX="-15.0" pickOnBounds="true" preserveRatio="true">
             <image>
                 <Image url="@images/food2.jpg" />
