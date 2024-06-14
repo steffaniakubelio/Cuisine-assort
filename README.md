@@ -1,7 +1,7 @@
 
 # Cuisine Assort - Recipe Management System
 
-Cuisine Assort is a recipe management system built using JavaFX and SceneBuilder. It allows users to organize, store, and share their favorite recipes with ease.
+Cuisine Assort is a recipe management system built using JavaFX and SceneBuilder. It allows users to organize, store, and share their favorite recipes with ease
 
 ## Features
 
